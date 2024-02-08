@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(237, 182, 248);
+}
+#container{
+    margin: auto;
+    height: auto;
+    width: 993px;
+}
+header{
+    height: 125px;
+    width: 993px;
+    margin-top: 30px;
+    margin-bottom: 1px;
+}
+nav{
+    width: 993px;
+    height: 100px;
+    float:left;
+    margin-right:5px;
+    margin-bottom: 10px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 10px solid #f598cb;
+    border-top: 10px solid rgb(237, 182, 248);
+    background-color: black;
+    width: 131.85px;
+    display: block;
+    text-align: justify;
+}
+nav ul li a:hover{
+    border-top: 10px solid #f598cb;
+    background-color: #f598cb;
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+}
+section{
+    width: 993px;
+    height: auto;
+    text-align: justify;
+}
+aside{
+    width: 993px;
+    height: auto;
+    border: 1px solid #000;
+    text-align: justify;
+}
+footer{
+    width: 993px;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 2px;
+    text-align: center;
+    text-align: justify;
+}
+aside p{
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    text-align: justify;
+    
+}
+aside h1{
+    font-size: 15pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #000;
+    padding-top: 15px;
+    text-align: justify;
+    text-align: center;
+
+}
+aside img{
+    margin-left: 400px;
+}
+aside ul{list-style-type: none;}
+aside ul li a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    color: black;
+    display: block;
+    width: 99.3;
+    text-align: justify;
+}
+aside ul li a:hover{
+    color: white;
+    font-size: 15pt;
+    font-weight: bold;
+
+}
+footer p{
+    font-size: 12pt;
+    text-align: center;
+    color: #000;
+
+}
